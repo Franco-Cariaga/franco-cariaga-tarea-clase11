@@ -1,0 +1,130 @@
+.lunes {
+  font-size: 25px;
+  color: aqua;
+}
+
+.martes {
+  font-size: 25px;
+  color: brown;
+}
+
+.miercoles {
+  font-size: 25px;
+  color: blue;
+}
+
+.jueves {
+  font-size: 25px;
+  color: chartreuse;
+}
+
+.viernes {
+  font-size: 25px;
+  color: darkseagreen;
+}
+
+.horario-lun {
+  color: aqua;
+}
+
+.horario-mar {
+  color: brown;
+}
+
+.horario-mier {
+  color: blue;
+}
+
+.horario-jue {
+  color: chartreuse;
+}
+
+.horario-vier {
+  color: darkseagreen;
+}
+
+
+.header {
+  background-color: darkslateblue;
+  height: 90px;
+  width: 100%;
+}
+
+.footer {
+  background-color: darkgrey;
+  height: 100px;
+  width: 100%;
+}
+
+.formulario {
+  
+  width: 50%;
+}
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  justify-content: space-between;
+  margin: 10px;
+
+  
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px; 
+}
+
+.caja {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 320px) {
+  .container {
+    grid-template-columns: 1fr; 
+}
+}
+@media (min-width: 321px) and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width: 768px){
+  .container {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+.caja-4, .caja-5, .caja-6 {
+    display: block; 
+  }
+
+.caja-1 {
+  background-color: #f00; 
+}
+
+.caja-2 {
+  background-color: #0f0; 
+}
+
+.caja-3 {
+  background-color: #00f; 
+}
+
+.caja-4 {
+  background-color: #ccc; 
+}
+
+.caja-5 {
+  background-color: #f0f; 
+}
+
+.caja-6 {
+  background-color: #0ff;
+}
